@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=0.1">
+</head>
+<body class="page">
+	<!-- Intro Section -->
+	<br>
+	<h1>Software Recommendations</h1>
+	<p>Generally speaking, what we're looking for are pieces of software that function as alternatives to software produced by large
+		tech corporations, which often having a business model that revolves around surveillance capitalism. The ideal for an alternative software
+		is one that is <b>Free and Open Source (FOSS)</b>, popular enough to be widely-used, subject to <b>security audits</b> , and is created with a <b>privacy focus</b>
+		in mind. Not every piece of software is going to fit all four of these requirements, which is okay! We're looking for the best possible fit we can find, knowing that
+		something that matches at least one or two of these requirements is going to be a big improvement over surveillance capitalism tech.
+    </p>
+	
+	<!-- Authentication Section -->
+	<div id="auth"></div>
+	<br>
+	<h1>Authentication</h1>
+	<h2>Passwords</h2>
+	<p>Make sure to use long, unique, randomly generated passwords. Ideally these are generated with a <b>password manager.</b>
+	The basic idea behind a password manager is that one uses a piece of software that keeps all of your login information in one place,
+	ideally where it is secure and encrypted. You access this information with a <b>master password</b>, which is the only password you need
+	to remember. This allows for the creation of long strings of random characters, which are significantly harder to be guessed or hacked. 
+    </p>
+	<p><h3>Recommended Software</h3>
+	<ul>
+		<li><a target=“_blank” href="https://bitwarden.com">Bitwarden</a>
+			</li>
+		<li><a target="_blank" href="https://keepassxc.org">KeePassXC</a>
+			</li>
+		<li><a target="_blank" href="https://1password.com">1Password</a>
+			</li>
+	</ul>
+    <p>
+	<h2>Two-factor Authentication</h2>
+	<p>Two-factor authetication (2FA) creates a second level of protection between your data and anyone who wants to access it. The default for many websites and services
+	   is to use a text message based authentication code (via SMS). While this is <i>okay</i> it isn't ideal, due to the inherently insercure nature of SMS technology. A better
+	   solution is to use a 2FA app on your phone. You will connect this to whatever account you need to add 2FA to (ideally all of them!). Once connected, when you go to login to 
+	   that account with your username and password, you will then be prompted to enter a 2FA code or token. You then go to the app on your phone and look for the unique code that
+	   is connected to that account (notice that the codes reset every 30 seconds). Enter the code into the website you're trying to login to and you'll be granted access. 
+	</p>
+	<p><h3>Recommended Software</h3>
+	<ul>
+		<li><a target=“_blank” href="https://getaegis.app">Aegis Authenticator (Android only)</a>
+			</li>
+		<li><a target="_blank" href="https://www.tofuauth.com">Tofu (iOS only)</a>
+			</li>
+		<li><a target="_blank" href="https://2fas.com">2FAS (Android or iOS)</a>
+			</li>
+	</ul>
+	</p>
+	</div>
+
+	<!-- Email Section -->
+	<br>
+	<div id="email">
+	<h1>Email</h1>
+
+	<p>It's worth thinking of email as the digital equivalent of a postcard; fine for messages that you're not concerned that others may see, but not fine
+		for anything you want to attempt to keep private! For those who work in some government or public service capacities, such as librarians, email can be subject to FOIA 
+		and thus may be viewable by the public. For this reason alone its really important to keep work and personal emails separate, and to take extra care with emails sent 
+		through work channels. 
+    </p>
+	<p>Ideally an email provider offers end-to-end encryption (E2E). This means that only you and the intended recipient are able to view the contents of your message. 
+		If you are sending via one E2E email provider, such as a Proton Mail address, to another, such as a Mailbox address, the contents are automatically encrypted and are not visible 
+		<i>even by the mail provider</i>. There is a caveat here, if you send an email from, say, a Proton mail account to a non-E2E email provider, such as a Gmail account, the contents 
+		<i>could</i> be visible by the non-E2E provider (in this case Gmail). One way around this in Proton Mail is to create a <a href="https://proton.me/support/password-protected-emails">
+			Password Protected Email</a> and then send the recipient the password via a secure channel (such as Signal).
+		</a>
+	</p>
+	<p><h3>Recommended Software</h3>
+	<ul>
+		<li><a target=“_blank” href="https://proton.me">Proton Mail</a>
+			</li>
+		<li><a target="_blank" href="https://mailbox.org">Mailbox</a>
+			</li>
+	</ul>
+    </p>
+	</div>
+
+</body>
+</html>
